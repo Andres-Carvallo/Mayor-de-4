@@ -4,35 +4,21 @@ tercero = ARGV[2].to_i
 cuarto = ARGV[3].to_i
 
 
-if primero >= segundo 
-    if primero >= tercero
-        if primero >= cuarto
-            puts primero
-    
-        end
-    end
+if primero >= segundo && primero >= tercero && primero >= cuarto
+    puts primero
+
 end
 
-if segundo > primero 
-    if segundo >= tercero
-        if segundo >= cuarto
-            puts segundo
-        end
-    end
+if segundo > primero && segundo >= tercero && segundo >= cuarto
+    puts segundo
 end
 
-if tercero > primero 
-    if tercero >= segundo
-        if tercero >= cuarto
-            puts tercero
-        end
-    end
+if tercero > primero && tercero > segundo && tercero >= cuarto
+    puts tercero
+
 end
 
-if cuarto > primero 
-    if cuarto > segundo
-        if cuarto > tercero
-            puts cuarto
-        end
-    end
+if cuarto > primero && cuarto > segundo && cuarto > tercero
+    puts cuarto
+
 end
